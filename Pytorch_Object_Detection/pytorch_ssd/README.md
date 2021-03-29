@@ -2,7 +2,7 @@
 
 ## 环境配置：
 * Python 3.6或者3.7
-* Pytorch 1.5(注意：是1.5)
+* Pytorch 1.7  
 * pycocotools(Linux: pip install pycocotools;
   Windows:pip install pycocotools-windows(不需要额外安装vs))
 * Ubuntu或Centos(不建议Windows)
