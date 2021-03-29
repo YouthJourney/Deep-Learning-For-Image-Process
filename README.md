@@ -1,11 +1,10 @@
-# 深度学习在图像处理中的应用教程
+# 深度学习在图像处理中的应用
 
 ## 前言
-* 本教程是对本人研究生期间的研究内容进行整理总结，总结的同时也希望能够帮助更多的小伙伴。后期如果有学习到新的知识也会与大家一起分享。
-* 本教程会以视频的方式进行分享，教学流程如下：  
-1）介绍网络的结构与创新点  
-2）使用Pytorch进行网络的搭建与训练  
-3）使用Tensorflow（内部的keras模块）进行网络的搭建与训练 
+* 本项目是对本人研究生期间的研究内容进行整理总结，总结的同时也希望能够帮助更多的小伙伴。后期如果有学习到新的知识也会与大家一起分享。
+* 本项目将通过以下两种深度学习网络框架搭建网络。
+1）使用Pytorch进行网络的搭建与训练  
+2）使用Tensorflow（内部的keras模块）进行网络的搭建与训练 
 
 
 ## 教程目录（后期会根据学习内容增加）
@@ -16,29 +15,22 @@
     * GoogLeNet（已完成）
     * ResNet（已完成）
     * MobileNet（已完成）
-    * ShuffleNet (准备中)
+    * ShuffleNet (已完成)
 * 目标识别检测
-    * Faster RCNN/FPN（进行中）
-    * SSD/RetinaNet (进行中)
-    * YOLOv3 SPP (进行中)
+    * Faster RCNN/FPN（已完成）
+    * SSD/RetinaNet (已完成)
+    * YOLOv3 SPP (已完成)
 * 目标分割
 
 
 ## 所需环境
 * Anaconda3（建议使用）
-* python3.6
-* pycharm (IDE)
-* pytorch 1.6 (pip package)
-* torchvision 0.7.0 (pip package)
-* tensorflow 2.1 (pip package)
-
-[你可能遇到的问题](./summary_problem.md)     
+* python3.6.8
+* pycharm2020.2.3 (IDE)
+* pytorch 1.7.1 (pip package)
+* torchvision 0.8.2 (pip package)
+* tensorflow 2.2.0 (pip package)  
 
 如果有什么问题，也可以到我的CSDN中一起讨论。   
-[https://blog.csdn.net/qq_37541097/article/details/103482003](https://blog.csdn.net/qq_37541097/article/details/103482003)
+[https://blog.csdn.net/hallobike/article/details/115300124](https://blog.csdn.net/hallobike/article/details/115300124)
 
-我的bilibili频道：
-[https://space.bilibili.com/18161609/channel/index](https://space.bilibili.com/18161609/channel/index)
-
-我的优酷播单：
-[http://list.youku.com/albumlist/show/id_52338354](http://list.youku.com/albumlist/show/id_52338354)
