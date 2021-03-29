@@ -110,24 +110,17 @@ cfg_path = "./cfg/yolov3-spp.cfg"
 * ```yolov3-spp-ultralytics-416.pt```: 链接: https://pan.baidu.com/s/1cK3USHKxDx-d5dONij52lA  密码: r3vm
 * ```yolov3-spp-ultralytics-512.pt```: 链接: https://pan.baidu.com/s/1k5yeTZZNv8Xqf0uBXnUK-g  密码: e3k1
 * ```yolov3-spp-ultralytics-608.pt```: 链接: https://pan.baidu.com/s/1GI8BA0wxeWMC0cjrC01G7Q  密码: ma3t
-* ```yolov3spp-voc-512.pth``` **(这是我在视频演示训练中得到的权重)**: 链接: https://pan.baidu.com/s/1fzXPFYvPy95Q9f5IR5Voqg  密码: ct2n
+* ```yolov3spp-voc-512.pth```: 链接: https://pan.baidu.com/s/1fzXPFYvPy95Q9f5IR5Voqg  密码: ct2n
  
  
 ## 6 数据集，本例程使用的是PASCAL VOC2012数据集
 * ```Pascal VOC2012``` train/val数据集下载地址：http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
-* 如果不了解数据集或者想使用自己的数据集进行训练，请参考我的bilibili：https://b23.tv/F1kSCK
 
 ## 7 使用方法
 * 确保提前准备好数据集
 * 确保提前下载好对应预训练模型权重
 * 若要使用单GPU训练或者使用CPU训练，直接使用train.py训练脚本
 * 若要使用多GPU训练，使用```python -m torch.distributed.launch --nproc_per_node=8 --use_env train_multi_GPU.py```指令,```nproc_per_node```参数为使用GPU数量
-
-## 如果对YOLOv3 SPP网络原理不是很理解可参考我的bilibili
-[https://www.bilibili.com/video/BV1yi4y1g7ro?p=3](https://www.bilibili.com/video/BV1yi4y1g7ro?p=3)
-
-## 进一步了解该项目，以及对YOLOv3 SPP代码的分析可参考我的bilibili
-[https://www.bilibili.com/video/BV1t54y1C7ra](https://www.bilibili.com/video/BV1t54y1C7ra)
 
 ## YOLOv3 SPP框架图
 ![yolov3spp](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing/raw/master/pytorch_object_detection/yolov3_spp/yolov3spp.png) 
