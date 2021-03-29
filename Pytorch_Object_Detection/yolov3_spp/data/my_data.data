@@ -1,0 +1,4 @@
+classes=20
+train=data/my_train_data.txt
+valid=data/my_val_data.txt
+names=data/my_data_label.names
